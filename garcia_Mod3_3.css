@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol {
+    border: 1px solid purple;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+ul {
+    border: 1px dashed purple;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: upper-roman inside;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div:last-of-type {
+    float: right;
+    margin-bottom: 40px;
+}
