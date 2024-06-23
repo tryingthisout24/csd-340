@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="garcia_Mod6_2.css">
+</head>
+<body>
+    <header>
+        <h1>Assignment 6.2: Build a Web Page - Part 5</h1>
+    </header>
+    
+    <div id="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    
+    <div id="container">
+        <div class="card">
+            <div class="card-title">Top 5 Favorite Foods</div>
+            <div class="card-content">
+                <ol>
+                    <li><a href="https://jz-eats.com/tuna-poke-nachos/">Food 1</a></li>
+                    <li><a href="https://ifoodreal.com/crispy-pan-fried-tofu/">Food 2</a></li>
+                    <li><a href="https://www.loveandlemons.com/broccoli-cheddar-soup/">Food 3</a></li>
+                    <li><a href="https://www.bowlofdelicious.com/easy-classic-shrimp-and-grits/">Food 4</a></li>
+                    <li><a href="https://bakerstable.net/homemade-lavender-ice-cream">Food 5</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
 
+    <footer>
+        <p><a href="#">back to Landing Page</a></p>
+    </footer>
+</body>
+</html>
